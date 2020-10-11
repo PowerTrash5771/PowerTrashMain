@@ -1,0 +1,32 @@
+body{margin:0;}
+.page-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://yt3.ggpht.com/_sCx9xE3d6y2p3_wcJJ8l6ZOTcm773RRAeBoOftL3t_iWr_rtblnl0WmuwLQiwnYI0_xdYZQs9o=w1060);
+    background-size: cover;
+    background-position: center;
+}
+.channel {
+    width: 8vh;
+    height: 8vh;
+    background-size: cover;
+    background-position: center;
+}
+.pt5771 {
+    background-image: url(https://yt3.ggpht.com/a/AATXAJxtFjk9t4x5NZmIIKoKF-_KQCdMktdAGnRoIjEO=s256-c-k-c0x00ffffff-no-rj);
+}
+.subcount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #111;
+}
+.channels {
+    width: 16vh;
+    height: 8vh;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
