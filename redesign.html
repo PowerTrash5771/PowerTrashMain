@@ -11,6 +11,9 @@
   <div class="img1">
     <a href="https://coolors.co/02111b-058ed9-62c370">COLOR PALETTE</a>
   </div>
+  <div class="img2">
+    <a href="https://powertrash5771.github.io/PowerTrashMain/trash-cloud-tv">TrashCloudTV</a>
+  </div>
   <div class="sidebar">
 
   </div>
@@ -21,6 +24,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
   * {
    font-family: 'Montserrat';
+  }
+  .img2 {
+    background-image: linear-gradient(20deg,rgba(5, 142, 217, 0.6) 70%,rgba(4, 116, 178, 0.6) 70%),url(https://powertrash5771.github.io/PowerTrashMain/redesign1-img1.jpg);
+    background-size: cover;
+    grid-column: 2 / 18;
+    grid-row: 20 / 36;
+    background-position: center;
   }
   .sidebar {
     background-image: linear-gradient(20deg,rgba(5, 142, 217, 0.6) 70%,rgba(4, 116, 178, 0.6) 70%),url(https://powertrash5771.github.io/PowerTrashMain/redesign1-img1.jpg);
@@ -36,13 +46,15 @@
     grid-template-columns: repeat(100,1%);
     grid-template-rows: repeat(100,1%);
   }
-  .img1 a {
+  .img1 a,
+  .img2 a {
     color: #fff;
     border-bottom: 3px solid #fff;
     text-decoration: none;
     transition: all 0.17s ease;
   }
-  .img1 a:hover {
+  .img1 a:hover,
+  .img2 a:hover {
     border-bottom: 0px solid #fff;
   }
   .grid-con .img1 {
